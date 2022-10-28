@@ -1,0 +1,412 @@
+@media(max-width:480px) {
+
+    /**Seção 1 - Conteúdo primário*/
+    .text--sectionOne {
+
+        width: 100%;
+    }
+
+    .descriptions--sectionOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .descriptions--sectionOne h1 {
+        padding-bottom: 8px;
+        font-size: 35px;
+        color: #ffffff;
+    }
+
+    .descriptions--sectionOne h2,
+    h3 {
+        padding-top: 8px;
+        font-size: 23px;
+        color: #ffffff;
+    }
+
+    /** Fim da: Seção 1 - Conteúdo primário*/
+
+
+    /**Seção 2 - Conteúdo secundário - Sobre mim */
+
+    .about-us {
+        background-color: #000836;
+        background: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .image--aboutUs {
+        height: 190px;
+        width: 190px;
+        margin-bottom: 30px;
+    }
+
+    .text-aboutUs {
+        width: 100%;
+    }
+
+    .text-aboutUs h2 {
+        font-size: 24px;
+    }
+
+    .text-aboutUs p {
+        margin-top: 25px;
+        font-size: 17px;
+
+    }
+
+    .redes-sociais--div {
+        transform: scaleX(200);
+    }
+
+    /** Fim da: Seção 2 - Conteúdo secundário */
+
+
+    /** Inicio - Seção --> Tecnologias */
+
+    .text--tecnologias h1 {
+        font-size: 1.3em;
+        width: 100%;
+
+    }
+
+    .box--logo {
+        display: grid;
+        grid-template-columns: 7.8em  7.8em;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .skills-logo {
+        padding-left: 20px;
+
+    }
+
+    .tecs--names {
+        color: #ffffff;
+    }
+
+
+    .img--flatSkill {
+        display: none;
+    }
+
+    /** Fim - Seção --> Tecnologias */
+
+
+    /** Inicio - Seção --> Conhecimentos Complementares */
+
+
+
+    #text--conhecimentos {
+        color: #ffffff;
+        font-size: 2.18em;
+        text-shadow: 9px 9px 10px #0b4e8b;
+    }
+
+    .images--conhecimentos {
+        display: grid;
+        grid-template-columns: 6.8em 6.8em ;
+        grid-template-rows: 1fr 1fr;
+        max-width: 100%;
+        justify-items: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /** Fim - Seção --> Conhecimentos Complementares */
+
+    /** Início - Seção --> Experiência */
+
+    #Experiência {
+        font-size: 35px;
+    }
+
+    .box-experiencia {
+        gap: 30px;
+        background-color: rgba(0, 0, 0, 0.445);
+    }
+
+    .descricoes--cargo {
+        
+        border-bottom: 1px solid #ffffff41;
+    
+        width: 100%;
+        
+    }
+
+    .descricoes--cargoexp2{
+        border: none;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+   
+/* .btn--experiencia{
+        height: 50px;
+        width: 100%;
+        max-width: 15.6em;
+        
+    } */
+
+    /** Fim - Seção --> Experiência */
+
+
+
+    /** Início - Seção --> Projetos */
+
+
+    .ilustracao-projetos {
+        width: 450px;
+        height: auto;
+    }
+
+    .ilustracao--arteprojetos h1 {
+        font-size: 50px;
+    }
+
+    .projetos--cards{
+        display: grid;
+        grid-template-columns: 480px;
+        justify-content: center;
+        align-content: center;
+        margin-top: 30px;
+        gap: 30px;
+    
+    }
+
+    .projetos--cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /** Fim - Seção --> Projetos **/
+
+    /** Início - Seção --> Footer **/
+    footer {
+        height: 100%;
+        padding: 30px;
+    }
+
+    .contacts--logo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
+    }
+
+    .email {
+        font-size: 12px;
+
+    }
+
+
+    /** Início - Seção --> Footer **/
+}
+
+
+@media (min-width:481px) and (max-width:644px){
+
+/**Seção 1 - Conteúdo primário*/
+
+.section--One{
+    margin-top: 2em;
+}
+.text--sectionOne{
+    margin-top: 40px;
+    width: 100%;
+}
+
+/** FIM Seção 1 - Conteúdo primário*/
+
+/** Início Seção 2 - Conteúdo Secundário*/
+
+    .img--flatSkill{
+        display: none;
+    }
+
+
+/** Fim Início Seção 2 - Conteúdo Secundário*/
+
+/** Início - Seção --> Tecnologias */
+.box--logo {
+    display: grid;
+    grid-template-columns: 7.8em  7.8em;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    gap:  40px;
+}
+
+
+.text--tecnologias h1 {
+    font-size: 35px;
+    align-self: center;
+
+}
+
+.tecs--names {
+    color: #ffffff;
+}
+
+
+.img--flatSkill {
+    display: none;
+}
+/** Fim - Seção --> Tecnologias */
+
+/** Início - Seção --> Conhecimentos Complementares */
+
+#text--conhecimentos {
+    color: #ffffff;
+    font-size: 2.18em;
+    text-shadow: 9px 9px 10px #0b4e8b;
+}
+
+
+.images--conhecimentos {
+    display: grid;
+    grid-template-columns: 6.8em 6.8em ;
+    grid-template-rows: 1fr 1fr;
+    max-width: 100%;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/** Fim - Seção --> Conhecimentos Complementares */
+
+/** Início - Seção --> Experiência */
+
+#Experiência {
+    font-size: 35px;
+}
+
+.box-experiencia {
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+/** Fim - Seção --> Projetos */
+
+
+.projetos--cards{
+    display: grid;
+    
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-top: 50px;
+    padding: 25px;
+    gap: 30px;
+    }
+
+} 
+
+
+
+
+
+@media (max-width:970px) {
+
+    /** Início SEÇÃO -- Cabeçalho **/
+    .container--header {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+
+    .menu-mobile {
+        display: block;
+    }
+
+
+    /** FIM SEÇÃO -- Cabeçalho **/
+
+    /** Ícones Float -- Redes Sociais **/
+    .redes--sociais {
+        display: none;
+    }
+
+    /** Ícones Float -- Redes Sociais **/
+
+    /** Início SEÇÃO Sobre mim **/
+    .area--aboutUs {
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+
+    .text-aboutUs {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .image--aboutUs {
+        width: 190px;
+
+    }
+
+
+    /** Fim SEÇÃO Sobre mim **/
+
+
+    /** SEÇÃO Experiência**/
+    .area--img-empresa{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-experiencia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+
+    .area--descricoes--cargo{
+        display:flex;
+        width: 100%;
+        justify-content: center;
+    }
+    /** Fim SEÇÃO Experiência**/
+
+ /** SEÇÃO Projetos**/
+
+    .ilustracao-secao-projetos {
+        max-width: 450px;
+        height: auto;
+    }
+
+    #titulo-secao-projetos{
+    font-size: 60px;
+    }
+
+ /** Fim  SEÇÃO Projetos**/
+
+ /** SEÇÃO Rodapé**/
+
+    .contacts--logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    
+/** Fim - SEÇÃO Rodapé**/
+}
+
+
+
