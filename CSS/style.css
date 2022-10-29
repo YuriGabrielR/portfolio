@@ -41,7 +41,7 @@ body {
     display: flex;
 }
 
-.item-link {
+.item-link{
     text-decoration: none;
     margin-right: 20px;
     font-size: 20px;
@@ -696,6 +696,9 @@ font-size: 18px;
     transition: 0.4s ease-in-out;
 }
 
+.link-visualizarBtn--projetos,.btn--gitHub,.github-footer:visited{
+color: #ffffff;
+}
 .img--projetos:hover {
     transform: scale(1.1);
 }
