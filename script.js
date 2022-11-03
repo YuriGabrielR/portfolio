@@ -49,9 +49,4 @@ itemLink5.addEventListener('click', function(){
     nav.classList.remove('active');
 })
 
-
-    
-    
-    
-
 //**Comportamento dos links internos do Menu Toogle */

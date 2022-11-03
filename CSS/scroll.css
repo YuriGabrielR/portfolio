@@ -11,3 +11,11 @@ border-radius: 10px;
 
 
    }
+
+
+
+   /** Scroll Reveal */
+   .descriptions--sectionOne{
+      visibility: hidden;
+   }
+   
