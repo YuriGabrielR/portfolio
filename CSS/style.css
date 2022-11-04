@@ -285,6 +285,7 @@ font-size: 16px;
     align-items: center;
     color: #ffffff;
     font-size: 2.5em;
+    font-weight: 700;
     text-shadow: 9px 9px 10px #0b4e8b;
 }
 
@@ -380,7 +381,8 @@ font-size: 16px;
 
 #text--conhecimentos{
     color: #ffffff;
-    font-size: 60px;
+    font-size: 3.75em;
+    font-weight: 700;
     text-shadow: 9px 9px 10px #0b4e8b; 
 }
 
@@ -456,7 +458,8 @@ border: 1px solid #FF1282;
 
 #experiencia{
     color: #ffffff;
-    font-size: 45px;
+    font-size: 2.6em;
+    font-weight: 700;
     text-shadow: 9px 9px 10px #0b4e8b; 
     align-self: center;
 }
@@ -503,7 +506,11 @@ border: 1px solid #FF1282;
 .periodo--experiencia,
 .atividades--experiencia{
 color: #ffffff;
+}
 
+.cargo--experiencia{
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 .periodo--experiencia,

@@ -1,3 +1,47 @@
+@media (min-width: 320px) and (max-width:479px){
+
+    /**Conteúdo primário */
+    .text-aboutUs{
+        margin-left: 0;
+        padding: 0px 10px;
+    }
+    /**Conteúdo primário */
+
+ /**Experiência */
+ .btn--experiencia {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border: none;
+    width: 200px;
+    margin-top: 1.25em;
+    height: 80px;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #FF1282;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.btn--experiencia a{
+    gap: 2px;
+    width: 100%;
+    }
+    
+/**Experiência */
+
+    /**projetos */
+    .ilustracao-secao-projetos{
+        padding: 0px 20px;
+    }
+  /**projetos */
+
+
+}
+
+
+
 @media(max-width:480px) {
 
     /**Seção 1 - Conteúdo primário*/
@@ -67,7 +111,7 @@
     /** Inicio - Seção --> Tecnologias */
 
     .text--tecnologias h1 {
-        font-size: 1.3em;
+        font-size: 1em;
         width: 100%;
 
     }
@@ -161,16 +205,18 @@
 
     /** Início - Seção --> Projetos */
 
+    .ilustracao-secao-projetos{
+        max-width: 400px;
+    }
 
     .ilustracao-projetos {
         max-width: 450px;
         height: auto;
     }
 
-    .ilustracao--arteprojetos h1 {
-        font-size: 35px;
+    #titulo-secao-projetos{
+        font-size: 2.9em;
     }
-
     .projetos--cards {
         display: grid;
         grid-template-columns: 480px;
@@ -406,9 +452,6 @@
         /*Projetos */
 
 
-        .ilustracao--arteprojetos h1 {
-            font-size: 35px;
-        }
     
         .projetos--cards {
             display: grid;
