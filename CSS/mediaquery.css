@@ -7,6 +7,15 @@
     }
     /**Conteúdo primário */
 
+
+    
+/**tecnologias*/
+.text--tecnologias{
+    font-size: 2.7em;
+}
+/**tecnologias*/
+
+
  /**Experiência */
  .btn--experiencia {
     display: flex;
@@ -36,7 +45,6 @@
         padding: 0px 20px;
     }
   /**projetos */
-
 
 }
 
@@ -101,9 +109,7 @@
 
     }
 
-    .redes-sociais--div {
-        transform: scaleX(200);
-    }
+
 
     /** Fim da: Seção 2 - Conteúdo secundário */
 
