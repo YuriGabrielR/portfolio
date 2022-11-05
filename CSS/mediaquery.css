@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width:479px){
-
+    
     /**Conteúdo primário */
     .text-aboutUs{
         margin-left: 0;
@@ -269,10 +269,6 @@
 
     /**Seção 1 - Conteúdo primário*/
 
-    .section--One {
-        margin-top: 2em;
-    }
-
     .text--sectionOne {
         margin-top: 40px;
         width: 100%;
@@ -390,7 +386,6 @@
     /*Conteudo primário*/
     .section--One {
         padding: 20px;
-        margin-top: 0px;
     }
 
     .text--sectionOne {
@@ -488,7 +483,14 @@
         html {
             overflow-x: hidden;
         }
-
+        header{
+            position: fixed;
+            top: 0;
+            background-color: #000836;
+            z-index: 999;
+            border-bottom: 1px solid #FF1282;
+        
+        }
         body,
         html {
             height: 100vh;
@@ -529,7 +531,6 @@
             position: absolute;
             top: 0;
             right: 0;
-            width: 0%;
             min-height: 0vh;
             background-color: #000836ef;
             z-index: 100;
@@ -559,10 +560,18 @@
             bottom: 0;
         }
 
+        /** Floats Icons*/
         .redes--sociais {
             display: none;
         }
+        .redes--sociais-div{
+            display: none;
+        }
+        .btn-up{
+            display: none;
+        }
 
+        /** Floats Icons*/
         /* Cabeçalho */
 
         /* Projetos */
@@ -571,7 +580,6 @@
             max-width: 420px;
             height: auto;
         }
-
         /* Projetos */
 
 

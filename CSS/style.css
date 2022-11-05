@@ -17,8 +17,9 @@ body {
 }
 
 /** Início DO CABEÇALHO **/
-
-
+header{
+    width: 100%;
+}
 
 .logo--portifolio {
     color: #ffffff;
@@ -189,11 +190,9 @@ width: 100%;
     right: 0;
     margin-right: 55px;
     z-index: 999;
-
-
 }
 
-.redes--sociais {
+.redes--sociais{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +207,7 @@ width: 100%;
     z-index: 10;
     opacity: 0.6;
     transition: .3s ease-in-out;
+    display: none;
 
 }
 
