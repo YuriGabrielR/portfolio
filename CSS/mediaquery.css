@@ -489,7 +489,7 @@
             background-color: #000836;
             z-index: 999;
             border-bottom: 1px solid #FF1282;
-        
+            box-shadow: 1px 1px 10px #FF1282;
         }
         body,
         html {

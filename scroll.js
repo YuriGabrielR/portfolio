@@ -13,12 +13,15 @@ ScrollReveal().reveal('.descriptions--sectionOne', {
    function FloatIconsNone(){
     if(window.matchMedia("(max-width:971px)") && window.scrollY >= 3915){
      document.querySelector('.redes--sociais').style.display ='none';
+     document.querySelector('.redes--sociais-div').style.display ='none';
+     
     } else{
      document.querySelector('.redes--sociais').style.display ='flex';     
+     
     }
    }
 
-  addEventListener('scroll', FloatIconsNone);
+  window.addEventListener('scroll', FloatIconsNone);
 /** Ocultação dos ícones flutuantes da page */
 
 
@@ -45,6 +48,6 @@ function ocultarBotaoHome(){
         document.querySelector('.btn-up').style.display ="flex";
    }
 }
-
 addEventListener('scroll', ocultarBotaoHome);
 /** Fim do bloco */
+
