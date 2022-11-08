@@ -14,7 +14,10 @@
  <h3 align ="center"> 🌐Visualização do portfólio:
  <h3 align ="center"> 💻 <a href="https://yurigabrielr.github.io/portfolio/" target="_blank"> Clique aqui! </a> </h3> </br>
  
- <img align="center" height="auto" width="1000px" src="https://user-images.githubusercontent.com/94508908/200453368-e824e098-e105-4b97-8d20-68eda6a9b7b8.png">
+ <img align="center" height="auto" width="1000px" src="https://user-images.githubusercontent.com/94508908/200453368-e824e098-e105-4b97-8d20-68eda6a9b7b8.png"> </br>
+ 
+ <a href="www.linkedin.com/in/yurigabrielramos" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
+ <a href="https://wa.me/5512981946294" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="150" height="32" /></a>
 
 
 
