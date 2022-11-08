@@ -4,6 +4,7 @@ const header = document.querySelector('.header');
 const menuBtn = document.querySelector('.menu-mobile');
 const nav = document.querySelector('.navigation');
 const itemlinks = document.querySelectorAll('.items-nav a[href^="#"');
+console.log(itemlinks);
 //*Variáveis*/
 
 //**Menu Mobile */
