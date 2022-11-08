@@ -14,10 +14,9 @@
  <h3 align ="center"> 🌐Visualização do portfólio:
  <h3 align ="center"> 💻 <a href="https://yurigabrielr.github.io/portfolio/" target="_blank"> Clique aqui! </a> </h3> </br>
  
-  <img src="(https://user-images.githubusercontent.com/94508908/200453368-e824e098-e105-4b97-8d20-68eda6a9b7b8.png" width="300px;" alt=""/>
- <br/>🚀 
- 
- [!image](https://user-images.githubusercontent.com/94508908/200453368-e824e098-e105-4b97-8d20-68eda6a9b7b8.png)
+ <img align="center" height="521px" width="1000px" src="https://user-images.githubusercontent.com/94508908/200453368-e824e098-e105-4b97-8d20-68eda6a9b7b8.png">
+
+
 
 
 ---
