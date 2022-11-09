@@ -1,6 +1,12 @@
 @media (min-width: 320px) and (max-width:479px){
     
     /**Conteúdo primário */
+    .image--inicial{
+        width: 300px;
+        height: auto;
+        margin-right: 0px;
+    }
+
     .text-aboutUs{
         margin-left: 0;
         padding: 0px 10px;
