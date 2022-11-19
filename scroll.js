@@ -13,7 +13,7 @@ ScrollReveal().reveal('.descriptions--sectionOne', {
    function FloatIconsNone(){
     if(window.matchMedia("(max-width:971px)") && window.scrollY >= 3915){
      document.querySelector('.redes--sociais').style.display ='none';
-     document.querySelector('.redes--sociais-div').style.display ='none';
+     
      
     } else{
      document.querySelector('.redes--sociais').style.display ='flex';     
@@ -50,4 +50,5 @@ function ocultarBotaoHome(){
 }
 addEventListener('scroll', ocultarBotaoHome);
 /** Fim do bloco */
+
 
