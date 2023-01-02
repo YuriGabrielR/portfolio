@@ -10,13 +10,14 @@ ScrollReveal().reveal('.home--texts', {
 
  /** Ocultação dos ícones flutuantes da page */
 
-   function FloatIconsNone(){
-    if(window.matchMedia("(max-width:971px)") && window.scrollY >= 3915){
-     document.querySelector('.redes--sociais').style.display ='none';
+   function FloatIconsNone(e){
+    e.preventDefault(); 
+    if(window.matchMedia("(max-width:971px)") && window.scrollY >= 3000){
+     document.querySelector('.sm--components').style.display ='none';
      
      
     } else{
-     document.querySelector('.redes--sociais').style.display ='flex';     
+     document.querySelector('.sm--components').style.display ='flex';     
      
     }
    }

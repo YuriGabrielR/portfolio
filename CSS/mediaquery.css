@@ -17,20 +17,31 @@
     }
     /**Conteúdo primário */
 
-
-    
 /**tecnologias*/
-.text--tecnologias{
+.title--technologies{
     font-size: 2.7em;
 }
 /**tecnologias*/
 
+/** Ferramentas e Conhecimentos **/
+.title--tools{
+    padding: 0;
+}
+#text--tools{
+    color: #ffffff;
+    font-size: 3.70em;
+    font-weight: 700;
+    text-shadow: 9px 9px 10px #268a44; 
+    width: 100%;
+    text-align: center;
 
-    /**projetos */
+}
+
+/**projetos */
     .ilustracao-secao-projetos{
         padding: 0px 20px;
     }
-  /**projetos */
+/**projetos */
 
 }
 
@@ -40,7 +51,7 @@
 
     /**Seção 1 - Conteúdo primário*/
     .home-components {
-        
+        width: 100%;
     }
 
     .home--texts {
@@ -70,7 +81,7 @@
 
     /**Seção 2 - Conteúdo secundário - Sobre mim */
 
-    .about-us {
+    .aboutUs-components {
         background-color: #000836;
         background: rgba(0, 0, 0, 0.5);
 
@@ -103,13 +114,13 @@
 
     /** Inicio - Seção --> Tecnologias */
 
-    .text--tecnologias h1 {
-        font-size: 1em;
+    .title--technologies{
+        font-size: 2.7em;
         width: 100%;
 
     }
 
-    .box--logo {
+    .technologies--logo{
         display: grid;
         grid-template-columns: 7.8em 7.8em;
         grid-template-rows: 1fr 1fr;
@@ -139,15 +150,16 @@
 
 
 
-    #text--conhecimentos {
+    #text--tools {
         color: #ffffff;
         font-size: 2.18em;
-        text-shadow: 9px 9px 10px #0b4e8b;
+        width: 100%;
+        text-align: center;
     }
 
-    .images--conhecimentos {
+    .tools--images {
         display: grid;
-        grid-template-columns: 6.8em 6.8em;
+        grid-template-columns: 6.8em ;
         grid-template-rows: 1fr 1fr;
         max-width: 100%;
         justify-items: center;
@@ -155,39 +167,28 @@
         padding: 20px;
     }
 
+    
     /** Fim - Seção --> Conhecimentos Complementares */
 
 
     /** Início - Seção --> Projetos */
-
-    .ilustracao-secao-projetos{
-        max-width: 400px;
-    }
-
-    .ilustracao-projetos {
-        max-width: 450px;
+    .ilustration--projects {
+        width: 350px;
         height: auto;
     }
 
-    #titulo-secao-projetos{
-        font-size: 2.9em;
-    }
-    .projetos--cards {
-        display: grid;
-        grid-template-columns: 480px;
-        justify-content: center;
-        align-content: center;
-        margin-top: 30px;
-        gap: 30px;
-
+    #title-projects{
+        font-size: 2.7em;
     }
 
-    .projetos--cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .img--project {
+        width: 100%;
+        height: auto;
+    }
+   
 
+    .img--project:hover {
+        transform: scale(1.0);
     }
 
     /** Fim - Seção --> Projetos **/
@@ -237,7 +238,8 @@
     /** Fim Início Seção 2 - Conteúdo Secundário*/
 
     /** Início - Seção --> Tecnologias */
-    .box--logo {
+   
+    .technologies--logo {
         display: grid;
         grid-template-columns: 7.8em 7.8em;
         grid-template-rows: 1fr 1fr;
@@ -247,7 +249,7 @@
     }
 
 
-    .text--tecnologias h1 {
+    .title--technologies p {
         font-size: 1.2em;
         align-self: center;
 
@@ -266,16 +268,18 @@
 
     /** Início - Seção --> Conhecimentos Complementares */
 
-    #text--conhecimentos {
+
+    #text--tools {
         color: #ffffff;
-        font-size: 2.9em;
-        text-shadow: 9px 9px 10px #0b4e8b;
+        font-size: 3.0em;
+        width: 100%;
+        text-align: center;
     }
 
 
-    .images--conhecimentos {
+    .tools--images {
         display: grid;
-        grid-template-columns: 6.8em 6.8em;
+        grid-template-columns: 6.8em 6.8em  6.8em;
         grid-template-rows: 1fr 1fr;
         max-width: 100%;
         justify-items: center;
@@ -321,7 +325,7 @@
 
 
     /*Conteudo secundário*/
-    .section--second {
+    .section--aboutUs {
         margin-top: 250px;
         display: flex;
         flex-wrap: wrap;
@@ -343,7 +347,7 @@
         display: none;
     }
 
-    .box--logo {
+    .technologies--logo{
         display: grid;
         grid-template-columns: 7.8em 7.8em 7.8em;
         grid-template-rows: 1fr 1fr;
@@ -480,8 +484,47 @@
         /* Cabeçalho */
 
         /* Projetos */
+        .projects--area {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            gap: 100px;
+        }
 
-        .img--projetos {
+
+            .components--cards{
+            flex-direction: column;
+            max-width: 100%;
+            gap: 30px;
+
+            }
+
+            .image-projects{
+                display: flex;
+                justify-content: center;
+             
+
+            }
+
+            
+            .projects--texts{
+                text-align: center;
+                width: 100%;
+                padding: 0 5px;
+               
+            }
+
+            .projects--descriptions{
+                margin-top: 8px;
+                
+                width: 100%;
+                color: #ffffff;
+            }
+
+
+        .img--project {
             max-width: 420px;
             height: auto;
         }
