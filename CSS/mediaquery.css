@@ -1,6 +1,10 @@
 @media (min-width: 320px) and (max-width:479px){
     
     /**Conteúdo primário */
+    .home--components{
+        width: 100%;
+    }
+
     .home--img{
         width: 300px;
         height: auto;
@@ -22,30 +26,6 @@
 /**tecnologias*/
 
 
- /**Experiência */
- .btn--experiencia {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    border: none;
-    width: 200px;
-    margin-top: 1.25em;
-    height: 80px;
-    padding: 30px;
-    border-radius: 12px;
-    background-color: #FF1282;
-    transition: 0.5s all;
-    cursor: pointer;
-}
-
-.btn--experiencia a{
-    gap: 2px;
-    width: 100%;
-    }
-    
-/**Experiência */
-
     /**projetos */
     .ilustracao-secao-projetos{
         padding: 0px 20px;
@@ -60,7 +40,7 @@
 
     /**Seção 1 - Conteúdo primário*/
     .home-components {
-        width: 100%;
+        
     }
 
     .home--texts {
@@ -68,18 +48,21 @@
         flex-direction: column;
         justify-content: center;
         margin-top: 15px;
+        
     }
 
     .home--texts h1 {
         padding-bottom: 8px;
         font-size: 35px;
         color: #ffffff;
+        
     }
 
     .home--texts h2,h3 {
         padding-top: 8px;
         font-size: 23px;
         color: #ffffff;
+        
     }
 
     /** Fim da: Seção 1 - Conteúdo primário*/
@@ -173,44 +156,6 @@
     }
 
     /** Fim - Seção --> Conhecimentos Complementares */
-
-    /** Início - Seção --> Experiência */
-
-    #Experiência {
-        font-size: 35px;
-    }
-
-    .box-experiencia {
-        gap: 30px;
-        background-color: rgba(0, 0, 0, 0.445);
-    }
-
-    .descricoes--cargo {
-
-        border-bottom: 1px solid #ffffff41;
-
-        width: 100%;
-
-    }
-
-    .descricoes--cargoexp2 {
-        border: none;
-        margin-top: 20px;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-
-    /* .btn--experiencia{
-        height: 50px;
-        width: 100%;
-        max-width: 15.6em;
-        
-    } */
-
-    /** Fim - Seção --> Experiência */
-
 
 
     /** Início - Seção --> Projetos */
@@ -340,35 +285,7 @@
 
     /** Fim - Seção --> Conhecimentos Complementares */
 
-    /** Início - Seção --> Experiência */
-
-    #Experiência {
-        font-size: 2.9em;
-    }
-
-    .box-experiencia {
-        gap: 30px;
-        background-color: rgba(0, 0, 0, 0.445);
-    }
-
-    .box-experiencia {
-        gap: 30px;
-        background-color: rgba(0, 0, 0, 0.445);
-    }
-
-    .descricoes--cargo {
-        border-bottom: 1px solid #ffffff41;
-        width: 100%;
-    }
-
-    .descricoes--cargoexp2 {
-        border: none;
-        margin-top: 20px;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
+    
     /** Fim - Seção --> Projetos */
 
 
@@ -438,24 +355,8 @@
         /*Tecnologias */
     }
 
-    /*Experiência */
-    .descricoes--cargo {
-        border-bottom: 1px solid #ffffff41;
-        width: 100%;
-    }
-
-    .descricoes--cargoexp2 {
-        border: none;
-        margin-top: 20px;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    /*Experiência */
 
         /*Projetos */
-
-
     
         .projetos--cards {
             display: grid;
@@ -489,11 +390,11 @@
         header{
             position: fixed;
             top: 0;
-            background-color: #000836;
+            background-color: rgb(24, 24, 24);
             z-index: 999;
-            border-bottom: 1px solid #FF1282;
-            box-shadow: 1px 1px 10px #FF1282;
+            box-shadow: 1px 1px 10px #000;
         }
+
         body,
         html {
             height: 100vh;
@@ -535,7 +436,7 @@
             top: 0;
             right: 0;
             min-height: 0vh;
-            background-color: #000836ef;
+            background-color: rgba(24, 24, 24, 0.973);;
             z-index: 100;
 
         }
@@ -550,13 +451,14 @@
             color: white;
         color: white; 
             color: white;
-            border-bottom: 1px solid #FF1282;
+            border-bottom: 1px solid #7777;
+            
         }
 
         nav a::after {
             content: '';
             height: 0px;
-            background-color: #FF1282;
+            background-color: #7777;
             width: 0%;
             position: absolute;
             left: 0;
