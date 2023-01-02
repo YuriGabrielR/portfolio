@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width:479px){
     
     /**Conteúdo primário */
-    .image--inicial{
+    .home--img{
         width: 300px;
         height: auto;
         margin-right: 0px;
@@ -59,26 +59,24 @@
 @media(max-width:480px) {
 
     /**Seção 1 - Conteúdo primário*/
-    .text--sectionOne {
-
+    .home-components {
         width: 100%;
     }
 
-    .descriptions--sectionOne {
+    .home--texts {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-top: 15px;
     }
 
-    .descriptions--sectionOne h1 {
+    .home--texts h1 {
         padding-bottom: 8px;
         font-size: 35px;
         color: #ffffff;
     }
 
-    .descriptions--sectionOne h2,
-    h3 {
+    .home--texts h2,h3 {
         padding-top: 8px;
         font-size: 23px;
         color: #ffffff;
@@ -275,7 +273,7 @@
 
     /**Seção 1 - Conteúdo primário*/
 
-    .text--sectionOne {
+    .home--components{
         margin-top: 40px;
         width: 100%;
     }
@@ -389,21 +387,20 @@
 
 @media (min-width:645px) and (max-width:969px) {
 
-    /*Conteudo primário*/
-    .section--One {
+    /*Conteudo primário (Home Mobile) */
+    .home-section {
         padding: 20px;
     }
 
-    .text--sectionOne {
+    .home--components {
 
         width: 100%;
     }
 
-    .descriptions--sectionOne {
+    .home--texts {
         padding: 30px 0px;
     }
-
-    /*Conteudo primário*/
+    /*Fim do conteúdo primário (Home )*/
 
 
     /*Conteudo secundário*/
@@ -502,15 +499,15 @@
             height: 100vh;
         }
 
-        .menu-mobile.active .linha1 {
+        .menu-mobile.active .line1 {
             transform: rotate(313deg) translate(-7px, 10px);
         }
 
-        .menu-mobile.active .linha2 {
+        .menu-mobile.active .line2 {
             opacity: 0;
         }
 
-        .menu-mobile.active .linha3 {
+        .menu-mobile.active .line3 {
             transform: rotate(47deg) translate(-4px, -7px);
         }
 
@@ -567,10 +564,10 @@
         }
 
         /** Floats Icons*/
-        .redes--sociais {
+        .sm--components {
             display: none;
         }
-        .redes--sociais-div{
+        .socialMedia-float{
             display: none;
         }
         .btn-up{

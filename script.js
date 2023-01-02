@@ -4,9 +4,10 @@ const header = document.querySelector('.header');
 const menuBtn = document.querySelector('.menu-mobile');
 const nav = document.querySelector('.navigation');
 const itemlinks = document.querySelectorAll('.items-nav a[href^="#"');
-const btn_aboutUs = document.querySelector('.sectionOne-LinkBtn');
+const btn_aboutUs = document.querySelector('.btn--hometexts');
 
 //*Variáveis*/
+
 
 //**Menu Mobile */
 function menuToogle(){

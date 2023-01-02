@@ -1,6 +1,6 @@
 /** Animação de revelação */
 ScrollReveal({ reset: true });
-ScrollReveal().reveal('.descriptions--sectionOne', {
+ScrollReveal().reveal('.home--texts', {
     delay: 300,
     rotate:{ x:100, y:100, z:0}
 }

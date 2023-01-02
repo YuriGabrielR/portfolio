@@ -1,21 +1,19 @@
 ::-webkit-scrollbar{
     width: 5px;   
 
- background-color: #00265F;
+ background-color: #777777;
 
 }
 
 ::-webkit-scrollbar-thumb{
-background-color: #FF1282;
+background-color: #5ABE77;
 border-radius: 10px;
 
 
    }
 
-
-
    /** Scroll Reveal */
-   .descriptions--sectionOne{
+   .home--texts{
       visibility: hidden;
    }
    
