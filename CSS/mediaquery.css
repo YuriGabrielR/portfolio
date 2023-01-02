@@ -13,8 +13,11 @@
 
     .text-aboutUs{
         margin-left: 0;
-        padding: 0px 10px;
+        padding: 0px 18px;
     }
+
+
+
     /**Conteúdo primário */
 
 /**tecnologias*/
@@ -38,9 +41,7 @@
 }
 
 /**projetos */
-    .ilustracao-secao-projetos{
-        padding: 0px 20px;
-    }
+
 /**projetos */
 
 }
