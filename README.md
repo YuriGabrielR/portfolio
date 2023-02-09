@@ -1,5 +1,5 @@
 
- <h1 align="center"> 👨‍💻 Portfólio - Yuri Ramos </h1>
+ <h1 align="center"> 👨‍💻 Portfólio - YGR TECHS </h1>
 <h3 align="center"> 🚀 Com muita alegria, este portfólio foi realizado para fixação e prática dos meus estudos, tendo como principal prioridade, realizar os uploads dos meus projetos e deixar disponível e visível todo meu empenho e trabalho.  ✅ </h3>
 
 <h2 align = "center"> <b> ‼️ Em constante atualização ‼️ 🚀</b> </h2>
