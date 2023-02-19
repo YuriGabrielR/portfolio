@@ -203,6 +203,7 @@ width: 100%;
 
 /** Botão --> Rolar Scroll para o topo **/
 .btn-up{
+    display: none;
     position: fixed;
     padding: 0px 20px;
     bottom: 5%;

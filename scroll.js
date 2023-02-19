@@ -29,25 +29,30 @@ ScrollReveal().reveal('.home--texts', {
 /** Comportamento do botão Up para subir à pagina principal*/
 
 /**Este bloco de código é responsável pelo click e animação do botão para a home */
-function arrowUp(){
-  window.scrollTo({
-    top:0,
-    behavior: 'smooth'
-  });
-    
-}
+
+
 let home = document.querySelector('.btnUp');
-home.addEventListener('click', arrowUp);
+home.addEventListener('click', ()=>{
+  window.scrollTo({
+    top: 0,
+    behavior:'smooth'
+  });
+
+});
 /**Fim do bloco */
 
 
 /**Este bloco de código é responsável por ocultar o botão quando o usuário realiza algum scroll na tela*/
 function ocultarBotaoHome(){
-    if(window.scrollY === 0){
-     document.querySelector('.btn-up').style.display ="none";
-    } else{
-        document.querySelector('.btn-up').style.display ="flex";
-   }
+  if(window.scrollY > 10){
+
+    document.querySelector('.btn-up').style.display = "flex";
+
+  }else {
+    document.querySelector('.btn-up').style.display = "none";
+  }
+
+
 }
 addEventListener('scroll', ocultarBotaoHome);
 /** Fim do bloco */
