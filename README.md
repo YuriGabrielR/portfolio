@@ -1,5 +1,5 @@
 
- <h1 align="center"> 👨‍💻 Portfólio - Yuri Ramos </h1>
+ <h1 align="center"> 👨‍💻 Portfólio - YGR TECHS </h1>
 <h3 align="center"> 🚀 Com muita alegria, este portfólio foi realizado para fixação e prática dos meus estudos, tendo como principal prioridade, realizar os uploads dos meus projetos e deixar disponível e visível todo meu empenho e trabalho.  ✅ </h3>
 
 <h2 align = "center"> <b> ‼️ Em constante atualização ‼️ 🚀</b> </h2>
@@ -16,7 +16,7 @@
  
  
 
- <img align="center" height="auto" width="1000px" src="https://user-images.githubusercontent.com/94508908/200453368-e824e098-e105-4b97-8d20-68eda6a9b7b8.png"> </br>
+ <img align="center" height="auto" width="1000px" src="https://user-images.githubusercontent.com/94508908/217727560-2c14f936-a292-43a9-8a41-ec384297559d.png"> </br>
  
 
 
