@@ -18,7 +18,8 @@ body {
     top: 0;
     background-color: #000836;
     z-index: 999;
-    border-bottom: 1px solid #FF1282;}
+    border-bottom: 1px solid #FF1282;
+}
 
 
 .navigation{
@@ -33,6 +34,7 @@ body {
 .items-nav {
     list-style: none;
     display: flex;
+    position: relative;
    
 }
 .items-nav a{
@@ -83,7 +85,21 @@ nav a:hover::after {
     width: 100%;
 }
 
-
+.navigation.active .sm-header{
+    display: flex;
+}
+.sm-header {  
+    position: absolute;
+    bottom: 20px;
+    display: none;
+    align-items: center;
+    gap: 30px;
+ 
+}
+.icons--header{
+    color: #E4E6E7;
+    font-size: 40px;
+}
 /** FIM DO CABEÇALHO **/
 
 
@@ -291,7 +307,7 @@ gap: 20px;
 
 .image--aboutUs{
     height: auto;
-    max-width: 250px;
+    width: 250px;
     margin-right: 10px;
     border-radius: 50%;
     border: 4px solid #7bcb92d5;
@@ -394,7 +410,7 @@ gap: 100px;
 
 .components--cards{
 display: flex;
-max-width: 950px;
+width: 950px;
 align-items: center;
 gap: 30px;
 
