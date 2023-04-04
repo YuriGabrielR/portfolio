@@ -6,30 +6,24 @@ ScrollReveal().reveal('.home--texts', {
 }
 ); 
 
+ScrollReveal().reveal('.imgProfile', {
+  delay: 300,
+  rotate:{ x:0, y:100, z:0}
+}
+); 
+
+ScrollReveal().reveal('.p-reveal', {
+  delay: 400,
+  rotate:{ x:100, y:0, z:0}
+}
+); 
+
  /** Animação de revelação */
-
- /** Ocultação dos ícones flutuantes da page */
-
-   function FloatIconsNone(e){
-    e.preventDefault(); 
-    if(window.matchMedia("(max-width:971px)") && window.scrollY >= 3000){
-     document.querySelector('.sm--components').style.display ='none';
-     
-     
-    } else{
-     document.querySelector('.sm--components').style.display ='flex';     
-     
-    }
-   }
-
-  window.addEventListener('scroll', FloatIconsNone);
-/** Ocultação dos ícones flutuantes da page */
 
 
 /** Comportamento do botão Up para subir à pagina principal*/
 
 /**Este bloco de código é responsável pelo click e animação do botão para a home */
-
 
 let home = document.querySelector('.btnUp');
 home.addEventListener('click', ()=>{

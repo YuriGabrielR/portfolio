@@ -1,6 +1,158 @@
-@media (min-width: 320px) and (max-width:479px){
+
+@media (min-width:320px) and (max-width:407px){
+
+    /** Home **/
+    .tecs-home{
+    padding: 6px;
+
+    }
+    .imgProfile{
+        width: 230px;
+        height: 230px;
+    }
+
+    .img-tecs-home{
+        width: 20px;
+        height: 20px;
+    }
+
+    .home--texts h1{
+        padding: 5px;
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .buttons-home{
+        flex-direction: column;
+    }
+
+    .btn--aboutme{
+    width: 190px;
+    height: 30px;
+
+    }
+
+    .link--aboutme{
+    font-size: 11px;
+    }
+
+    .btn-cv{
+        width: 190px;
+        height: 30px;
+    }
+
+    .link-cv{
+
+        font-size: 11px;
+    }
+ /** Home **/
+
+
+    /**About me **/
+    .image--aboutUs{
+        width: 200px;
+    }
+
+    .text-aboutUs h2{
+        margin-top: 15px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-aboutUs{
+        width: 95%;
+        padding: 5px;
+    }
+
+    .text-aboutUs p {
+        font-size: 14px;
+    }
+    /**About me **/
+
+
+    /**Projects **/
+    .img--project{
+      width: 240px;  
+    }
     
-    /**Conteúdo primário */
+
+    /**Projects **/
+    .name--site{
+        font-size: 22px;
+    }
+
+    .projects--descriptions{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    #projects--function{
+        font-size: 13px;
+    }
+
+    #projects--techs{
+        font-size: 13px;
+    }
+
+    .btn-project-view{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .btn-project-github {
+        width: 125px;
+        height: 20px;
+        font-size: 10px;
+
+    }
+    .btn-project-github i{
+        font-size: 10px;
+    }
+
+    /**Projects **/
+
+
+    /** footer **/
+    .title--footer{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .icons--footer{
+    font-size: 35px;
+    }
+
+
+    .email--footer,.email-icon{
+        font-size: 15px;
+    }
+
+
+    .footer--text{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    /** footer **/
+
+
+}
+
+
+@media (min-width: 408px) and (max-width:465px){
+    
+    .imgProfile{
+        width: 300px;
+        height: 300px;
+    }
+
+
+   /** home **/
+    .home--texts h1 {
+        font-size: 15px;
+ 
+       
+     }
     .home--components{
         width: 100%;
     }
@@ -16,57 +168,79 @@
         padding: 0px 18px;
     }
 
+    .img-tecs-home{
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn--aboutme{
+        width: 200px;
+        height: 30px;
+    }
+
+    .link--aboutme{
+        font-size: 12px;
+    }
+
+    .btn-cv{
+        width: 170px;
+        height: 30px;
+    }
+    
+    .link-cv{
+        font-size: 12px;
+    }
+
+    /** home **/
 
 
-    /**Conteúdo primário */
+    /** about me **/
+    .image--aboutUs{
+        width: 200px;
+    }
 
-/**tecnologias*/
-.title--technologies{
-    font-size: 2.7em;
+    .text-aboutUs h2{
+        margin-top: 15px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-aboutUs{
+        width: 95%;
+        padding: 5px;
+    }
+
+    .text-aboutUs p {
+        font-size: 14px;
+    }
+
+    /** about me **/
+
+    .img--project{
+
+        width: 100%;
+    }
+
 }
-/**tecnologias*/
-
-/** Ferramentas e Conhecimentos **/
-.title--tools{
-    padding: 0;
-}
-#text--tools{
-    color: #ffffff;
-    font-size: 3.70em;
-    font-weight: 700;
-    text-shadow: 9px 9px 10px #268a44; 
-    width: 100%;
-    text-align: center;
-
-}
-
-/**projetos */
-
-/**projetos */
-
-}
 
 
 
-@media(max-width:480px) {
-
+@media(min-width: 466px) and (max-width:481px) {
     /**Seção 1 - Conteúdo primário*/
+
+    .imgProfile{
+        width: 300px;
+        height: 300px;
+
+    }
     .home-components {
         width: 100%;
     }
 
-    .home--texts {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 15px;
-        
-    }
+
 
     .home--texts h1 {
-        padding-bottom: 8px;
-        font-size: 35px;
-        color: #ffffff;
+        font-size: 21px;
         
     }
 
@@ -75,6 +249,26 @@
         font-size: 23px;
         color: #ffffff;
         
+       
+    }
+
+    .btn--aboutme{
+        width: 220px;
+        height: 29px;
+    }
+
+    .link--aboutme{
+    font-size: 13px;
+    }
+
+
+    .btn-cv{
+     width: 180px;
+     height: 29px;
+    }
+
+    .link-cv{
+        font-size: 13px;
     }
 
     /** Fim da: Seção 1 - Conteúdo primário*/
@@ -108,68 +302,7 @@
 
     }
 
-
-
     /** Fim da: Seção 2 - Conteúdo secundário */
-
-
-    /** Inicio - Seção --> Tecnologias */
-
-    .title--technologies{
-        font-size: 2.7em;
-        width: 100%;
-
-    }
-
-    .technologies--logo{
-        display: grid;
-        grid-template-columns: 7.8em 7.8em;
-        grid-template-rows: 1fr 1fr;
-        justify-content: center;
-        width: 100%;
-        gap: 20px;
-    }
-
-    .skills-logo {
-        padding-left: 20px;
-
-    }
-
-    .tecs--names {
-        color: #ffffff;
-    }
-
-
-    .img--flatSkill {
-        display: none;
-    }
-
-    /** Fim - Seção --> Tecnologias */
-
-
-    /** Inicio - Seção --> Conhecimentos Complementares */
-
-
-
-    #text--tools {
-        color: #ffffff;
-        font-size: 2.18em;
-        width: 100%;
-        text-align: center;
-    }
-
-    .tools--images {
-        display: grid;
-        grid-template-columns: 6.8em ;
-        grid-template-rows: 1fr 1fr;
-        max-width: 100%;
-        justify-items: center;
-        align-items: center;
-        padding: 20px;
-    }
-
-    
-    /** Fim - Seção --> Conhecimentos Complementares */
 
 
     /** Início - Seção --> Projetos */
@@ -219,7 +352,11 @@
 @media (min-width:481px) and (max-width:644px) {
 
     /**Seção 1 - Conteúdo primário*/
-
+    .home--texts h1 {
+        font-size: 20px;
+ 
+       
+     }
     .home--components{
         margin-top: 40px;
         width: 100%;
@@ -310,17 +447,10 @@
 @media (min-width:645px) and (max-width:969px) {
 
     /*Conteudo primário (Home Mobile) */
-    .home-section {
-        padding: 20px;
-    }
-
+  
     .home--components {
 
         width: 100%;
-    }
-
-    .home--texts {
-        padding: 30px 0px;
     }
     /*Fim do conteúdo primário (Home )*/
 
@@ -470,18 +600,13 @@
             bottom: 0;
         }
 
-        /** Floats Icons*/
-        .sm--components {
-            display: none;
-        }
-        .socialMedia-float{
-            display: none;
+        .home-section{
+            margin-top: 100px;
         }
         .btn-up{
             display: none;
         }
 
-        /** Floats Icons*/
         /* Cabeçalho */
 
         /* Projetos */
@@ -506,7 +631,7 @@
                 display: flex;
                 justify-content: center;
              
-
+                
             }
 
             
@@ -518,7 +643,7 @@
             }
 
             .projects--descriptions{
-                margin-top: 8px;
+             
                 
                 width: 100%;
                 color: #ffffff;
@@ -527,6 +652,7 @@
 
         .img--project {
             max-width: 420px;
+            
             height: auto;
         }
         /* Projetos */
