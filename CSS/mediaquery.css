@@ -111,6 +111,16 @@
         font-size: 10px;
     }
 
+    .btn-data-sheet{
+
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+    }
+    
+    .btn-data-sheet i{
+        font-size: 10px;
+    }
 
     .btn-project-github {
         width: 125px;
