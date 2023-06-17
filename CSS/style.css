@@ -1,6 +1,5 @@
 body {
-  background-color: rgb(24, 24, 24);
-    background-size: cover;
+    background-color: #181818;
     background-position: center center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -156,9 +155,8 @@ gap: 20px;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    width: 240px;
-    
-    height: 40px;
+    width: auto;
+    height: 35px;
     border: 2px solid #E4E6E7;
     border-radius: 12px;
     background-color: #263338;
@@ -182,9 +180,9 @@ gap: 20px;
     align-items: center;
 
     padding: 10px;
-    width: 200px;
+    width: auto;
 
-    height: 40px;
+    height: 35px;
     border: 2px solid #E4E6E7;
     border-radius: 12px;
     background-color: #263338;
@@ -319,7 +317,7 @@ gap: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #000836;
+    background-color: #000000;
     background: rgba(0, 0, 0, 0.4);
    
 }
@@ -334,10 +332,6 @@ gap: 20px;
     justify-content: center;
 
 }
-
-
-
-
 
 
 .text-aboutUs {
@@ -425,8 +419,6 @@ gap: 30px;
     font-weight: 600;
     color: aliceblue;
     font-family: 'Cabin', sans-serif;
-    
-   
 }
 
 
@@ -439,9 +431,24 @@ gap: 30px;
 
 .projects--descriptions{
     margin-top: 8px;
-    
     width: 530px;
     color: #ffffff;
+}
+
+
+.p-data-sheet-description{
+    display: none;
+    margin-top: 8px;
+    width: 530px;
+    color: #ffffff;
+}
+
+.p-data-sheet-description.isActive{
+display: block;
+}
+
+.projects--descriptions.isHidden{
+    display: none;
 }
 
 #projects--techs,
@@ -461,71 +468,56 @@ gap: 30px;
     border: none;
     border-radius: 10px;
     font-size: 15px;
-    background-color: #268a44;
+    border: 2px solid #E4E6E7;
+    background-color: #263338;
     color: #ffffff;
     font-weight: 500;
-    transition: 0.5s all;
-    position: relative;
-    z-index: 1;
+    
 }
 
-.btn-project-view::before {
-    content: '';
-    width: 0%;
-    height: 100%;
-    background-color: #272727;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 8px;
-    transition: 0.4s ease-in-out;
+
+.btn-data-sheet{
+    cursor: pointer;
+    margin-top: 8px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 2px;
+    border: 2px solid #E4E6E7;
+    background-color: #263338;
+    color: #ffffff;
+    font-weight: 500;
 }
 
-.btn-project-view:hover:before {
-    width: 100%;
-    border: 1px solid #ffffff;
-    z-index: -1;
+.btn-data-sheet i{
+    font-size: 18px;
 }
+
 
 .btn-project-github{
     cursor: pointer;
     margin-top: 8px;
     width: 184px;
     height: 30px;
-    border: none;
+    border: 2px solid #E4E6E7;
+    background-color: #263338;
     border-radius: 10px;
     font-size: 15px;
-    background-color: #268a44;
     color: #ffffff;
     font-weight: 500;
-    transition: 0.5s all;
-    position: relative;
-    z-index: 1;
 }
 
-.btn-project-github:hover:before {
-    width: 100%;
-    border: 1px solid #ffffff;
-    z-index: -1;
-}
+
 .btn-project-github i{
 font-size: 18px;
 }
-.btn-project-github::before {
-    content: '';
-    width: 0%;
-    height: 100%;
-    background-color: #272727;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 8px;
-    transition: 0.4s ease-in-out;
-}
+
 
 .font-btn-view,.font-project-github,.github-footer:visited{
 color: #ffffff;
 }
+
 .img--project:hover {
     transform: scale(1.1);
 }
@@ -540,9 +532,9 @@ padding: 10px;
 margin-top: 100px;
 height: 250px;
 width: 100%;
-background-color: #2e2e2e;
-border-top: 2px solid #268a44 ;
-box-shadow: 8px 8px 15px #30be5b;
+background-color: #2E2E2E;
+border-top: 2px solid #5c5e5c ;
+box-shadow: 8px 8px 15px #919191;
 display: flex;
 justify-content: center;
 flex-direction: column;

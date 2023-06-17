@@ -91,6 +91,12 @@
         font-size: 13px;
     }
 
+    .p-data-sheet-description{
+        margin-top: 20px;
+        font-size: 13px;
+
+    }
+
     #projects--function{
         font-size: 13px;
     }
@@ -622,6 +628,14 @@
 
         /* Cabeçalho */
 
+    /* Sobre mim */
+
+        .text-aboutUs h2{
+            width: 100%;
+            text-align: center;
+        }
+    /* Fim da seção - Sobre mim */
+
         /* Projetos */
 
 
@@ -661,10 +675,13 @@
             }
 
             .projects--descriptions{
-             
-                
+            
                 width: 100%;
                 color: #ffffff;
+            }
+
+            .p-data-sheet-description{
+                width: 100%;
             }
 
 

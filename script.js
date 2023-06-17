@@ -5,7 +5,7 @@ const menuBtn = document.querySelector('.menu-mobile');
 const nav = document.querySelector('.navigation');
 const itemlinks = document.querySelectorAll('.items-nav a[href^="#"');
 const btn_aboutUs = document.querySelector('.btn--aboutme');
-
+const btnDataSheet = document.querySelectorAll('.btn-data-sheet');
 
 //**Menu Mobile */
 function menuToogle(){
@@ -55,4 +55,17 @@ btn_aboutUs.addEventListener('click', (event)=>{
         block:'start',
     });
 })
+
+
+btnDataSheet.forEach(buttons =>{
+    buttons.addEventListener('click', ({target})=>{
+
+        let descriptionProject = target.parentElement.children[1];
+        let descriptionDataSheet = target.parentElement.children[2];
+       
+        descriptionProject.classList.toggle('isHidden');
+        descriptionDataSheet.classList.toggle('isActive');
+    })
+
+});
 

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/mediaquery.css">
     <link rel="stylesheet" href="./CSS/scroll.css">
+    <meta name="description" content="Yuri Ramos - Desenvolvedor de Sistemas Front-End - São José dos Campos - SP">
     <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
@@ -96,14 +97,14 @@
                 <span class="buttons-home">
                     <button class="btn--aboutme">
                         <a class="link--aboutme" href="#sobremim"> 
-                            Conheça mais sobre mim
+                            Sobre mim
                             <i class="fa-solid fa-down-long arrowDown--btn"> </i>
                         </a>
                     </button>
     
                     <button class="btn-cv">
                         <a href="https://rebrand.ly/et3o3s9" target="_blank" class="link-cv" > 
-                            Veja meu currículo! 
+                            Currículo 
                             <i class="fa-regular fa-file-pdf"></i>
                         </a>
                     </button>
@@ -133,19 +134,15 @@
                         alt="foto-do-Yuri-Ramos-na-seção-sobre-mim-do-portfólio">
 
                     <div class="text-aboutUs">
-                        <h2> Olá! Eu sou o Yuri, Front-end Developer. </h2>
-                        <p> Irei contar um pouco da minha história.. Tive o meu primeiro contato com programação, quando
-                            estava realizando um curso profissionalizante de <strong>designer gráfico</strong>, me
-                            recordo que ao finaliza-lo, a instituição me comunicou que faltavam horas para completar a
-                            carga horária total do contrato, com isso, me propuseram alguns cursos a fim de conseguir
-                            complementar as horas faltantes, dentre as opções, havia o curso de <strong> Lógica de
-                                Programação</strong>, sem conhecer e nunca ter visto nada relacionado, o escolhi, e hoje tenho absoluta
-                            certeza que foi a melhor decisão que tomei na minha vida!
+                        <h2> Olá! Eu sou o Yuri. 👋🏽 </h2>
+                        <p> 
+                            Desenvolvedor Front-End formado em Análise e Desenvolvimento de Sistemas pela 
+                            Universidade Estácio de Sá, atualmente tenho trabalhado como freelancer criando interfaces
+                            responsivas, modernas, intuitivas e que buscam oferecer uma boa experiência ao usuário. 
+                          
                         </p>
 
-                        <p> Sou recém formado em <strong> Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá </strong>, a fim de aprimorar meus estudos e adqurir experiência, desenvolvo projetos focados em obter boa performance, prorizando códigos limpos e layouts modernos e responsivos.Além de buscar procurar oferecer uma ótima experiência ao usuário, em minhas aplicações procuro implementar métodos que consigam desempenhar bem nos mecanismos de buscas <strong>(SEO)</strong>.
-                        </p>
-
+                        
                     </div>
 
                 </div>
@@ -169,35 +166,41 @@
                 <div class="components--cards">
                     <div class="image-projects">
 
-                        <img class="img--project" src="./Images/projects/devfinder-projeto.png" alt="imagem-do-projeto">
+                        <img class="img--project" src="./Images/projects/landing-page-projeto.png" alt="imagem-do-projeto">
 
                     </div>
 
                     <div class="projects--texts">
-                        <p class="name--site"> Dev Finder </p>
+                        <p class="name--site"> Creative Light Solutions </p>
 
-                        <p class="projects--descriptions"> 
-                            O Dev Finder é um sistema que procura perfis de usuários em um dos maiores sites de desenvolvedores do mundo, o GitHub! <br>
-                            Ao informar no campo de busca o perfil que desejas acessar, a aplicação retorna algumas informações deste desenvolvedor. <br>
-                            Para a obtenção e manipulação destes dados, fiz uma requisição utilizando o <strong>Fetch do JS da API pública</strong> disponibilizada próprio Github.
-                           
-                
+                        <p class="projects--descriptions"> Landing Page responsiva, dinâmica e animada, nesta aplicação a intenção era fazermos com que a interatividade e dinâmia do usuário ao navegar na page fosse simples e fácil. 😁
+                        </p>
+
+                        <p class="p-data-sheet-description"> Landing Page desenvolvida utilizando GRID Layout do CSS como base, além da utilização do pré processador SASS para aproveitamento de mixins e afins. <br>
+                        A aplicação é responsiva e o JavaScript foi adotado para o comportamento do menu mobile e descrições suspensas nas versões para dispositivos menores.
+                        </p>
+                        
 
                         <p id="projects--function"> <strong>Função: Desenvolvedor Front-End</strong> </p>
 
-                        <p id="projects--techs"> <strong> Tecnologias usadas: HTML5, CSS, API e JavaScript</strong> </p>
+                        <p id="projects--techs"> <strong> Tecnologias usadas: HTML5, SCSS e JavaScript</strong> </p>
 
                         <button class="btn-project-view">
                             <i class="fa-solid fa-link"></i>
 
-                            <a href="https://yurigabrielr.github.io/dev-finder/" target="_blank" class="font-btn-view">
+                            <a href="https://yurigabrielr.github.io/creative-light-solutions/" target="_blank" class="font-btn-view">
                                 Visualizar</a>
                         </button>
 
+                        <button class="btn-data-sheet">
+                            <i class="fa-regular fa-file-code"></i>
+                                Ficha Técnica
+                        </button>
 
                         <button class="btn-project-github">
                             <i class="fa-brands fa-github"></i>
-                            <a class="font-project-github" href="https://github.com/YuriGabrielR/dev-finder"
+                            <a class="font-project-github"
+                             href="https://github.com/YuriGabrielR/creative-light-solutions"
                                 target="_blank">Repositório GitHub </a>
                         </button>
 
@@ -214,12 +217,11 @@
                     <div class="projects--texts">
                         <p class="name--site"> Simple Links  </p>
 
-                        <p class="projects--descriptions"> A <strong>Simple Links </strong> é uma plataforma que permite o encurtramento de qualquer link que você desejar, o deixando mais elegante, sem número malucos e muito menos textos gigantes! <br>
-                           Esta aplicação foi desenvolvida a partir de uma API pública do
-                            Rebrandly, cujo para requisição da mesma, utilizei o <strong>Fetch API</strong>, além da
-                            introdução de botões e funcionalidades que auxiliam a experiência do usuário, possibilitando para os mesmos, um
-                            maior dinamismo e rapidez ao utilizar o encurtador. </p>
+                        <p class="projects--descriptions"> A <strong>Simple Links </strong> é uma plataforma que permite o encurtamento de qualquer link que você desejar, o deixando mais elegante, sem números malucos e textos gigantes! <br>
+                        </p>
 
+                        <p class="p-data-sheet-description"> Para este sistema, utilizei a API disponibilizada pelo Rebrandly, a requisição REST da mesma fora através do método Fetch API do próprio JavaScript, na estilização da page utilizei o Pré Processador SASS e mais JavaScript para lidar com os comportamentos dos botões de tema e de comandos do usuário após o encurtamento do link.😁🌐
+                        </p>
 
                         <p id="projects--function"> <strong>Função: Desenvolvedor Front-End</strong> </p>
 
@@ -232,6 +234,10 @@
                                 Visualizar</a>
                         </button>
 
+                        <button class="btn-data-sheet">
+                            <i class="fa-regular fa-file-code"></i>
+                                Ficha Técnica
+                        </button>
 
                         <button class="btn-project-github">
                             <i class="fa-brands fa-github"></i>
@@ -241,82 +247,53 @@
 
                     </div>
                 </div>
-
-
                 <div class="components--cards">
                     <div class="image-projects">
 
-                        <img class="img--project" src="./Images/projects/landing-page-projeto.png" alt="imagem-do-projeto">
+                        <img class="img--project" src="./Images/projects/devfinder-projeto.png" alt="imagem-do-projeto">
 
                     </div>
 
                     <div class="projects--texts">
-                        <p class="name--site"> Creative Light Solutions </p>
+                        <p class="name--site"> Dev Finder </p>
 
-                        <p class="projects--descriptions"> Landing Page desenvolvida com <strong> GRID CSS Layout</strong>, um website responsivo a todos os dispositivos móveis, além de contar com animações e interatividade para com o usuário. </p>
+                        <p class="projects--descriptions"> 
+                            O Dev Finder é um sistema que procura perfis de usuários em um dos maiores sites de desenvolvedores do mundo, o GitHub! <br>
+                            Ao informar no campo de busca o perfil que desejas acessar, a aplicação retorna algumas informações sobre o Dev em questão.
+                            <br>
+                        
+                        </p>
 
+                        <p class="p-data-sheet-description"> Para o retorno das informações do Dev procurado pelo User, utilzei a API disponibilizada pelo GitHub, na requisição da mesma, fora usado o método Fetch do JavaScript e para as animações e estilizações em geral da page, o pré processador SASS ficou responsável por tal. 😁 
+                            </p>
+    
 
                         <p id="projects--function"> <strong>Função: Desenvolvedor Front-End</strong> </p>
 
-                        <p id="projects--techs"> <strong> Tecnologias usadas: HTML5, SCSS e JavaScript</strong> </p>
+                        <p id="projects--techs"> <strong> Tecnologias usadas: HTML5, CSS, API e JavaScript</strong> </p>
 
                         <button class="btn-project-view">
                             <i class="fa-solid fa-link"></i>
-
-                            <a href="https://yurigabrielr.github.io/creative-light-solutions/" target="_blank" class="font-btn-view">
+                            <a href="https://yurigabrielr.github.io/dev-finder/" target="_blank" class="font-btn-view">
                                 Visualizar</a>
                         </button>
 
+                        <button class="btn-data-sheet">
+                            <i class="fa-regular fa-file-code"></i>
+                                Ficha Técnica
+                        </button>
+                        
 
                         <button class="btn-project-github">
                             <i class="fa-brands fa-github"></i>
-                            <a class="font-project-github"
-                             href="https://github.com/YuriGabrielR/creative-light-solutions"
+                            <a class="font-project-github" href="https://github.com/YuriGabrielR/dev-finder"
                                 target="_blank">Repositório GitHub </a>
                         </button>
 
                     </div>
                 </div>
 
-
-
-                <div class="components--cards">
-                    <div class="image-projects">
-
-                        <img class="img--project" src="./Images/projects/portfolio-projeto.png" alt="imagem-do-projeto">
-
-                    </div>
-
-                    <div class="projects--texts">
-                        <p class="name--site"> YGR Techs - Portfólio </p>
-
-                        <p class="projects--descriptions"> Portfólio desenvolvido com a intenção de centralizar todos os
-                            meus projetos como <strong>Desenvolvedor Front-End,</strong> nele, busquei implementar meus
-                            conhecimentos de <strong>Design e UX</strong>, visando uma usabilidade simples e interativa.
-                        </p>
-
-                        <p id="projects--function"> <strong>Função: Desenvolvedor Front-End</strong> </p>
-
-                        <p id="projects--techs"> <strong> Tecnologias usadas: HTML5, CSS e JavaScript</strong> </p>
-
-                        <button class="btn-project-view">
-
-                            <i class="fa-solid fa-link"></i>
-
-
-                            <a href="https://yurigabrielr.github.io/portfolio/" target="_blank" class="font-btn-view">
-                                Visualizar </a>
-                        </button>
-
-
-                        <button class="btn-project-github">
-                            <i class="fa-brands fa-github"></i>
-                            <a class="font-project-github" href="https://github.com/YuriGabrielR/portfolio"
-                                target="_blank"> Repositório GitHub </a>
-                        </button>
-
-                    </div>
-                </div>
+                
 
 
             </div>
